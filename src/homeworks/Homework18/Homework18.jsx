@@ -1,7 +1,13 @@
-import './styles.css';
+import "./styles.css";
 
-function Homework18 () {
-    return <div>Homework18</div>
+import LoginForm from "../../components/LoginForm/LoginForm";
+
+function Homework18() {
+  return (
+    <div className="homework18-wrapper">
+      <LoginForm />
+    </div>
+  );
 }
 
 export default Homework18;
